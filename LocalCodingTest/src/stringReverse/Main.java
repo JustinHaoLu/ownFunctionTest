@@ -8,36 +8,37 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("请输入想要移位的字符串：");
-        String string = scanner.next();
-        System.out.println("请选择想要进行的移位操作：");
-        System.out.println("0\t左移");
-        System.out.println("1\t右移");
-        System.out.println("2\t字符串反转");
-        int number = scanner.nextInt();
-        switch (number){
-            case 0:
-                System.out.println("请输入想要左移的位数：");
-                int indexLeft = scanner.nextInt();
-                System.out.println("左移之后的字符串表示为：" + leftReserve(string, indexLeft));
-                break;
-            case 1:
-                System.out.println("请输入想要右移的位数：");
-                int indexRight = scanner.nextInt();
-                System.out.println("右移之后的字符串表示为：" + rightReserve(string, indexRight));
-                break;
-            case 2:
-                //下面的方法是利用系统自带的StringBuffer函数中的reverse方法
-                System.out.println("反转后的字符串为：" + new StringBuffer(string).reverse().toString());
-                //还可以用自己编写的reChange()方法：
-                //System.out.println("反转后的字符串为：" + reChange(string));
-                break;
-            default:
-                System.out.println("当你看到该输出时，程序已进行默认操作！");
+        while (true){
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("请输入想要移位的字符串：");
+            String string = scanner.next();
+            System.out.println("请选择想要进行的移位操作：");
+            System.out.println("0\t左移");
+            System.out.println("1\t右移");
+            System.out.println("2\t字符串反转");
+            int number = scanner.nextInt();
+            switch (number){
+                case 0:
+                    System.out.println("请输入想要左移的位数：");
+                    int indexLeft = scanner.nextInt();
+                    System.out.println("左移之后的字符串表示为：" + leftReserve(string, indexLeft));
+                    break;
+                case 1:
+                    System.out.println("请输入想要右移的位数：");
+                    int indexRight = scanner.nextInt();
+                    System.out.println("右移之后的字符串表示为：" + rightReserve(string, indexRight));
+                    break;
+                case 2:
+                    //下面的方法是利用系统自带的StringBuffer函数中的reverse方法
+                    System.out.println("反转后的字符串为：" + new StringBuffer(string).reverse().toString());
+                    //还可以用自己编写的reChange()方法：
+                    //System.out.println("反转后的字符串为：" + reChange(string));
+                    break;
+                default:
+                    System.out.println("当你看到该输出时，表明输入有误，程序已停止运行！");
+                    return;
+            }
         }
-
-
     }
 
     /**
