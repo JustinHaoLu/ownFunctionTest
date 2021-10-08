@@ -1,4 +1,4 @@
-# stringReverse
+#My ownFucntion test directory.
 This is my own testing repository that contains all my learning progress through java.
 
 Repositorie included has its own function.
