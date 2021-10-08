@@ -1,3 +1,7 @@
+/**
+ * this is a algorithm that can change the degree Fahrenheit into degree Celsius.
+ */
+
 #include <stdio.h>
 #include <math.h>
 

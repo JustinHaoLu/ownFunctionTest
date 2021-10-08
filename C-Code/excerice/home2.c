@@ -1,3 +1,6 @@
+/**
+ * this is a algorithm that can compare three numbers and output the max one.
+ */
 #include <stdio.h>
 
 int main(){

@@ -1,3 +1,7 @@
+/**
+ *this is a algorithm that can count the area of a column.   
+ */
+
 #include <stdio.h>
 #include <math.h>
 
