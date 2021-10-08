@@ -3,7 +3,7 @@ This is my own testing repository that contains all my learning progress through
 
 Repositorie included has its own function.
 
-The main repository is named "LocalCodingTest"，which includes all the algorithms I made to test myself.
+The main repository is named "LocalCodingTest"，which includes all the algorithms using Java that I made to test by myself.
 
 The following are the algorithms included:
 
