@@ -20,7 +20,7 @@
 
 	This algorithm can change minner word into upper word, or btw,change upper word into minner word.
 
-3.	2021年10月8日update:
+3.	2021/10/8/	update:
 
 	Create a new directory named"C_Code".
 
@@ -42,7 +42,7 @@
 
 	You can see the details at every C code documents. 
 
-4.	2021年10月9日update:
+4.	2021/10/9/	update:
 
 	Create a new directory named"Cpp_Code".
 
