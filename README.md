@@ -4,9 +4,10 @@
 
 	Repositorie included has its own function.
 
-	The main repository is named "LocalCodingTest"，which includes all the algorithms using Java that I made to test by myself.
+	The first repository named "LocalCodingTest" includes all the algorithms using Java that I made to test by myself.
+	The second repository named "C_Code" includes the algorithms I made to test something.
 
-	The following are the algorithms included:
+	The following are the details:
 
 1.	LocalCodingTest/src/stringReverse:
 
