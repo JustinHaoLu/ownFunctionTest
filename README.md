@@ -2,11 +2,13 @@
 
 	This is my own testing repository that contains all my learning progress through java.
 
-	Repositorie included has its own function.
+	Every repositoris included has its own function.
 
 	The first repository named "Java_Code" includes all the algorithms using Java that I made to test by myself.
 	
 	The second repository named "C_Code" includes the algorithms I made to test something which is made by C code.
+
+	The third repository named "Cpp_Code" includes functions created to test cpp code using cpp.
 
 	The following are the details:
 
