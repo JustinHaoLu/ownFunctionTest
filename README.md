@@ -39,3 +39,23 @@
 	So the lefting documents are the C code documents that has its own function.
 
 	You can see the details at every C code documents. 
+
+4.	2021年10月9日update:
+
+	Create a new directory named"Cpp_Code".
+
+	This directory contains some algorithms using Cpp codes.
+
+	It includes two directories ".vscode" and "algorithms".
+
+	The ".vscode" has the function that it can run and debug files built in the environment.
+  
+	Besides, there is another directory named "algorithms".
+
+	This directory also has two son branches:"bin" and others.
+
+	The bin directory contains the Cpp code which has been debuged into an executed program.
+
+	Last, the lefting documents are the C code documents that has its own function.
+
+	You can see the details at every Cpp code documents. 
