@@ -4,17 +4,17 @@
 
 	Repositorie included has its own function.
 
-	The first repository named "LocalCodingTest" includes all the algorithms using Java that I made to test by myself.
+	The first repository named "Java_Code" includes all the algorithms using Java that I made to test by myself.
 	
 	The second repository named "C_Code" includes the algorithms I made to test something which is made by C code.
 
 	The following are the details:
 
-1.	LocalCodingTest/src/stringReverse:
+1.	Java_Code/src/stringReverse:
 
 	A algorithm that can reverse string into new sort;
 
-2.	LocalCodingTest/src/upperString:
+2.	Java_Code/src/upperString:
 
 	This algorithm can change minner word into upper word, or btw,change upper word into minner word.
 
