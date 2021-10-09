@@ -6,7 +6,7 @@
 
 	The first repository named "LocalCodingTest" includes all the algorithms using Java that I made to test by myself.
 	
-	The second repository named "C_Code" includes the algorithms I made to test something.
+	The second repository named "C_Code" includes the algorithms I made to test something which is made by C code.
 
 	The following are the details:
 
