@@ -77,4 +77,9 @@ int main()
     cout<<arr1.getaddress()<<" "<<arr2.getaddress()<<" "<<arr3.getaddress()<<endl;
     return 0;
 }
-
+/**
+ * 拷贝构造函数参数为引用
+ * 系统自动生成的拷贝构造函数功能简单
+ * 只是将 arr1 的数组首地址直接赋值给 arr2 的数组首地址
+ * 也即 num = a.num;这必然导致两个对象指向同一块内存
+ */
