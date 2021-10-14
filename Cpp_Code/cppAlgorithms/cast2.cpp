@@ -12,7 +12,7 @@ int main()
     if(p == NULL)
         cout<<"Not found the val in array a"<<endl;
     else
-        cout<<"hvae found the val in array a and the val = "<<*p<<endl;
+        cout<<"have found the val in array a and the val = "<<*p<<endl;
     return 0;
 }
 

@@ -6,17 +6,46 @@ enum index{underflow, overflow};
  * 并且定义了两个值，分别为 underflow 和 overflow，这两个值作为抛出异常的返回值。
  */
 
-int array_index(int *A, int n, int index);
+int array_index(int *A, int n, int index);      //在这里声明函数
 
 int main()
 {
     int *A = new int[10];
-    for(int i=0; i<10; i++)
+    for(int i=0; i<10; i++){
         A[i] = i;
+    }
+    try
+    {
+        cout<<array_index(A,10,-1)<<endl;
+    }
+    catch(index e)
+    {
+        if(e == underflow)
+        {
+            cout<<"index underflow!"<<endl;
+        }
+        else if(e == overflow)
+        {
+            cout<<"index overflow!"<<endl;
+        }
+    }
     try
     {
         cout<<array_index(A,10,5)<<endl;
-        cout<<array_index(A,10,-1)<<endl;
+    }
+    catch(index e)
+    {
+        if(e == underflow)
+        {
+            cout<<"index underflow!"<<endl;
+        }
+        else if(e == overflow)
+        {
+            cout<<"index overflow!"<<endl;
+        }
+    }
+    try
+    {
         cout<<array_index(A,10,15)<<endl;
     }
     catch(index e)
@@ -24,12 +53,10 @@ int main()
         if(e == underflow)
         {
             cout<<"index underflow!"<<endl;
-            exit(-1);
         }
-        if(e == overflow)
+        else if(e == overflow)
         {
             cout<<"index overflow!"<<endl;
-            exit(-1);
         }
     }
     /**
@@ -40,16 +67,25 @@ int main()
 }
 
 /**
+ * 在这里定义函数
  * array_index() 函数用于返回数组 index 下标的数值，如果出现异常则抛出异常。
  */
 int array_index(int *A, int n, int index)
 {
-    if(index < 0) throw underflow;  //需要抛出的异常
-    if(index > n-1) throw overflow;
-    return A[index];
+    if(index < 0){
+        throw underflow;  //需要抛出的异常
+    }
+    if(index > n-1){
+        throw overflow;
+    }
+    if(index >= 0 && index <= n - 1){
+        return A[index];
+    }
+    return 0;
 }
 
-/**在 C语言中，异常通常是通过函数返回值获得
+/**
+ * 在C语言中，异常通常是通过函数返回值获得
  * 但这样一来，函数是否产生异常则需要通过检测函数的返回值才能得知
  * 而在 C++中，当函数抛出一个返回值时，即使不用 try 和 catch 语句，异常还是会被处理的
  * 系统会自动调用默认处理函数 unexpected() 来执行
