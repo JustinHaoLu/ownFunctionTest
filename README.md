@@ -1,6 +1,6 @@
 #My ownFucntion test directory.
 
-	This is my own testing repository that contains all my learning progress through java.
+	This is my own testing repository that contains all my learning progress through Java,C and C++.
 
 	Every repositoris included has its own function.
 
