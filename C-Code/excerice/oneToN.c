@@ -1,0 +1,12 @@
+//This function can calculate the total number of input and output the result.
+#include <stdio.h>
+
+int main(){
+    int n, i, sum = 0;
+    scanf("%d",&n);
+    for(i = 1;i <= n;i++){
+        sum += i;
+    }
+    printf("%d",sum);
+    return 0;
+}
