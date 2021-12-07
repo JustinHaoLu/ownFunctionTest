@@ -5,6 +5,16 @@
         "stdio.h": "c",
         "stdlib.h": "c",
         "cstring": "c",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "*.tcc": "c",
+        "bitset": "c",
+        "chrono": "c",
+        "codecvt": "c",
+        "string_view": "c",
+        "algorithm": "c",
+        "random": "c",
+        "istream": "c",
+        "limits": "c",
+        "valarray": "c"
     }
 }
